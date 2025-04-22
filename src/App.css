@@ -1,8 +1,12 @@
+/* General Styles */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #001f3f; /* Dark Blue */
+  color: #ffffff; /* White */
 }
 
 .logo {
@@ -41,6 +45,18 @@
   color: #888;
 }
 
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff; /* White */
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #ff4136; /* Red Accent */
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+/* Gallery Styles */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -48,22 +64,151 @@
   justify-content: center;
 }
 
+/* Volunteer Card Styles */
 .volunteer-card {
+  position: relative;
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 16px;
-  width: 250px;
-  text-align: center;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  text-align: left;
+  background-color: #ffffff; /* White */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.volunteer-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  border-color: #ff4136; /* Red Accent */
 }
 
 .volunteer-card img {
   width: 100%;
+  height: 600px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.volunteer-card:hover img {
+  transform: scale(1.1);
+}
+
+.volunteer-card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.volunteer-card h3 {
+  font-size: 1.5rem;
+  color: #001f3f; /* Dark Blue */
+  margin-bottom: 0.5rem;
+}
+
+.volunteer-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+/* Hover Effect: Expand Image and Show Data Next to It */
+.volunteer-card:hover .volunteer-card-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.volunteer-card:hover img {
+  width: 50%;
   height: auto;
   border-radius: 8px;
+}
+
+.volunteer-card:hover .volunteer-card-content {
+  flex: 1;
+  padding: 16px;
+}
+
+.volunteer-card:hover h3,
+.volunteer-card:hover p {
+  text-align: left;
 }
 
 .volunteer-filter {
   margin: 20px;
   text-align: center;
+}
+
+.volunteer-filter label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #ffffff; /* White */
+}
+
+.volunteer-filter select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #ff4136; /* Red Accent */
+  border-radius: 4px;
+  background-color: #ffffff; /* White */
+  color: #001f3f; /* Dark Blue */
+  transition: border-color 0.3s ease;
+}
+
+.volunteer-filter select:hover {
+  border-color: #ff4136; /* Red Accent */
+}
+
+/* Organization Header Styles */
+.organization-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between logo and text */
+  margin-bottom: 2rem;
+}
+
+.organization-logo {
+  width: 200px; /* Adjust the size of the logo */
+  height: auto;
+}
+
+.organization-text {
+  text-align: left; /* Align text to the left */
+}
+
+.organization-text h1 {
+  font-size: 2.5rem;
+  color: #ffffff; /* White */
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.organization-text p {
+  font-size: 1.2rem;
+  color: #ffffff; /* White */
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .volunteer-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .volunteer-card img {
+    height: 150px;
+  }
+
+  .volunteer-card-content {
+    height: auto;
+  }
 }

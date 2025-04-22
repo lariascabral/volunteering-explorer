@@ -34,7 +34,20 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Volunteer Explorer</h1>
+      {/* Organization Title and Logo */}
+      <header className="organization-header">
+        <img
+          src="/src/assets/logo.png" // Path to the volunteering logo
+          alt="Organization Logo"
+          className="organization-logo"
+        />
+        <h1>Volunteer Explorer</h1>
+        <h3 className="organization-description">
+          Empowering individuals to make a difference through education and collaboration. Meet the dedicated volunteers who are shaping a brighter future for our community!.
+        </h3>
+      </header>
+
+      {/* Volunteer Filter and Gallery */}
       <VolunteerFilter volunteers={volunteers} onFilter={handleFilter} />
       <Gallery volunteers={filteredVolunteers} />
     </div>

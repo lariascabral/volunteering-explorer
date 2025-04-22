@@ -25,7 +25,7 @@
       "zone": "D - Hermes",
       "expertise": "Discussion",
       "description": "Aims to foster engaging discussions among delegates.",
-      "pictureUrl": "/src/assets/Voluntarios-70.png"
+      "pictureUrl": "/src/assets/Voluntarios 70.png"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "zone": "F - Apollo",
       "expertise": "Writing",
       "description": "Focuses on improving delegates' writing skills.",
-      "pictureUrl": "/src/assets/Voluntarios-51.png"
+      "pictureUrl": "/src/assets/Voluntarios 51.png"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "zone": "C - Zeus",
       "expertise": "Debate",
       "description": "Encourages critical thinking and debate skills.",
-      "pictureUrl": "/src/assets/Voluntarios-27.png"
+      "pictureUrl": "/src/assets/Voluntarios 27.png"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "zone": "B - Artemis",
       "expertise": "Research",
       "description": "Supports delegates in conducting thorough research.",
-      "pictureUrl": "/src/assets/Voluntarios-45.png"
+      "pictureUrl": "/src/assets/Voluntarios 45.png"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "zone": "A - Ares",
       "expertise": "Research",
       "description": "Supports delegates in conducting thorough research and creating excellent arguments.",
-      "pictureUrl": "/src/assets/Voluntarios-44.png"
+      "pictureUrl": "/src/assets/Voluntarios 44.png"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "zone": "G - Hephestus",
       "expertise": "Parlamentary Procedure",
         "description": "Aims to help delegates understand and apply parliamentary procedures.",
-      "pictureUrl": "/src/assets/Voluntarios-39.png"
+      "pictureUrl": "/src/assets/Voluntarios 39.png"
     }
   ]
 }
