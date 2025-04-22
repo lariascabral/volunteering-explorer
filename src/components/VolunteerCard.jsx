@@ -1,3 +1,6 @@
+// This project was created with GitHub Copilot prompts and the student.
+// VolunteerCard.jsx: Component to display individual volunteer details in a card format.
+
 import React from "react";
 
 function VolunteerCard({ volunteer }) {
