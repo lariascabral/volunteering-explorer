@@ -1,0 +1,76 @@
+{
+  "volunteers": [
+    {
+      "id": 1,
+      "name": "Ezequiel Martinez",
+      "yearsInVolunteering": 3,
+      "zone": "C - Zeus",
+      "expertise": "Argumentation",
+      "description": "Passionate about working towards educating delegates.",
+      "pictureUrl": "/src/assets/Voluntariado-022.png"
+    },
+    {
+      "id": 2,
+      "name": "Dilenni Segura",
+      "yearsInVolunteering": 3,
+      "zone": "E - Hestia",
+      "expertise": "Speech Writing",
+      "description": "Dedicated to helping delegates improve their public speaking skills.",
+      "pictureUrl": "/src/assets/Voluntariado-069.png"
+    },
+    {
+      "id": 3,
+      "name": "Danibel Rivera",
+      "yearsInVolunteering": 1,
+      "zone": "D - Hermes",
+      "expertise": "Discussion",
+      "description": "Aims to foster engaging discussions among delegates.",
+      "pictureUrl": "/src/assets/Voluntarios-70.png"
+    },
+    {
+      "id": 4,
+      "name": "Roussynny Tejada",
+      "yearsInVolunteering": 2,
+      "zone": "F - Apollo",
+      "expertise": "Writing",
+      "description": "Focuses on improving delegates' writing skills.",
+      "pictureUrl": "/src/assets/Voluntarios-51.png"
+    },
+    {
+      "id": 5,
+      "name": "Daniela Rodriguez",
+      "yearsInVolunteering": 1,
+      "zone": "C - Zeus",
+      "expertise": "Debate",
+      "description": "Encourages critical thinking and debate skills.",
+      "pictureUrl": "/src/assets/Voluntarios-27.png"
+    },
+    {
+      "id": 6,
+      "name": "Diana Sanchez",
+      "yearsInVolunteering": 1,
+      "zone": "B - Artemis",
+      "expertise": "Research",
+      "description": "Supports delegates in conducting thorough research.",
+      "pictureUrl": "/src/assets/Voluntarios-45.png"
+    },
+    {
+      "id": 7,
+      "name": "Elizabeth Perez",
+      "yearsInVolunteering": 1,
+      "zone": "A - Ares",
+      "expertise": "Research",
+      "description": "Supports delegates in conducting thorough research and creating excellent arguments.",
+      "pictureUrl": "/src/assets/Voluntarios-44.png"
+    },
+    {
+      "id": 8,
+      "name": "Yessica Lovera",
+      "yearsInVolunteering": 2,
+      "zone": "G - Hephestus",
+      "expertise": "Parlamentary Procedure",
+        "description": "Aims to help delegates understand and apply parliamentary procedures.",
+      "pictureUrl": "/src/assets/Voluntarios-39.png"
+    }
+  ]
+}
